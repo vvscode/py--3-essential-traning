@@ -27,6 +27,15 @@ def main():
     '''
     print(m_string)
 
+    v_tuple = (1, 2, 3)
+    print(type(v_tuple), v_tuple)
+    v_list = [1, 2, 3]
+    print(type(v_list), v_list)
+    v_list.insert(1, 7)
+    v_list.insert(8, 9)
+    print(type(v_list), v_list)
+    v_str = 'string'
+    print(type(v_str), v_str[1: 4])
 
 if __name__ == '__main__':  # some comments in source code
     main()
