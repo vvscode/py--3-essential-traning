@@ -59,5 +59,17 @@ def main():
     for k in v_dict_2:
         print(k, v_dict_2[k])
 
+    x1 = (1, 2)
+    x2 = (1, 2)
+    print(x1, id(x1), x2, id(x2))
+    s1 = "123"
+    s2 = "123"
+    print(s1, id(s1), s2, id(s2))
+    print(s1 == s2)
+    print(s1 is s2)
+    print((1, 2) == (1, 2))
+    print((1, 2) is (1, 2))
+    print(id((1, 2)), id((1, 2)))
+
 if __name__ == '__main__':  # some comments in source code
     main()
