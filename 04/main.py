@@ -25,7 +25,7 @@ def main():
     fried = Egg()
     new_agg = Egg('cool')
     print(fried.what_kind())
-    print(newAgg.what_kind())
+    print(new_agg.what_kind())
 
 
 def egg(): print('egg 2')
