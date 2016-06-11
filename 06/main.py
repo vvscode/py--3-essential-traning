@@ -31,6 +31,5 @@ def main():
     print(v)
 
 
-
 if __name__ == '__main__':  # some comments in source code
     main()
