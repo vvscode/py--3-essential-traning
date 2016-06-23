@@ -33,6 +33,15 @@ def main():
     a = bitstring.BitString(bin='01010101')
     print(a.hex, a.bin, a.uint)
 
+    import time, SayTime
+    t = time.localtime()
+    print("Content-type: text/html\n")
+    print(
+        "In Phoenix, Arizona, it is now " +
+        SayTime.SayTimeT(t).words() +
+        time.strftime(', on %A, %d %B %Y.')
+    )
+
 
 if __name__ == '__main__':  # some comments in source code
     main()
